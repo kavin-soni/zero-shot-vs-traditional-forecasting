@@ -5,6 +5,6 @@ xgboost
 matplotlib
 tensorflow
 jax
-# Note: TimesFM is best installed directly from source
+git+https://github.com/google-research/timesfm.git
 transformers
 accelerate
