@@ -21,12 +21,6 @@ Preliminary results on the M5 Retail dataset indicate that the Foundation Model 
 
 ## 📂 Repository Contents
 
-* `notebooks/`: Jupyter notebooks containing the end-to-end experiments.
-    * `01_TimesFM_*.ipynb`: Zero-shot inference pipelines using the TimesFM architecture.
-    * `02_Benchmark_*.ipynb`: Training and evaluation of supervised baselines (XGBoost, LSTM, SNAIVE).
-* `data/`: Placeholder for datasets (M4, M5, Traffic, ETTh1, Exchange).
-* `results/`: Generated metrics and qualitative forecast plots.
-
-## 🚀 Getting Started
-
-Step 1: Prepare Data Download the raw datasets into the data/ folder and run notebooks/00_Data_Processing.ipynb to convert them from Wide format to the Long format required by the models.
+* `notebooks/`: Jupyter/Colab notebooks containing the end-to-end experiments.
+* `data/`: Datasets used for bechmarking (M4, M5, Traffic, ETTh1, Exchange).
+* `results/`: Generated metrics.
